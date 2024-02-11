@@ -1,0 +1,25 @@
+GET http://localhost:8080/compliment/all
+Authorization: Basic ivan 123
+###
+
+GET http://localhost:8080/compliment/all
+Authorization: Basic admin 123
+###
+GET http://localhost:8080/compliment/all
+content-type:application/json
+###
+GET http://localhost:8080/compliment/next
+###
+GET http://localhost:8080/compliment/next
+content-type:application/json
+Authorization: Basic admin 123
+
+###
+GET http://localhost:8080/compliment/4
+content-type:application/json
+Authorization: Basic admin 123
+
+###
+POST http://localhost:8080/user?userName=ivan&password=123
+###
+POST http://localhost:8080/user?userName=admin&password=123

@@ -1,0 +1,4 @@
+﻿out/artifacts/Compliment_jar
+.idea
+target
+src/main/resources/application.properties
